@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    background-image: url("tile_background.png");
+    background-color: #cccccc;
+    animation: move_background linear 6s infinite;
+}
+
+.fixed_image {
+    position: absolute;
+    bottom: 0vh;
+    width:30vw;
+    height:50vh;
+}
+
+button {
+    position: absolute;
+    top: 10vh;
+}
+
+#displayedText {
+    position: absolute;
+    top: 30vh;
+}
+
+.jumpClass {
+    animation: jump linear 2s;
+}
+
+@keyframes move_background {
+    0%   {background-position: 0% 0%;}
+    100% {background-position: 100% 0%;}
+}
+
+@keyframes jump {
+    0% {bottom: 0%;}
+    50% {bottom: 20%;}
+    100% {bottom: 0%;}
+}
+  

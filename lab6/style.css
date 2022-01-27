@@ -1,0 +1,173 @@
+#introductive_paragraph {
+    font-size: 3cm;
+    font-weight: bold;
+    text-align: center; 
+    opacity: 0.3;
+    color: red;
+}
+
+.continutul {
+    position: relative;
+    height:6vh;
+    top: -15vh;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+}
+
+.input_div {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.check_button {
+    float: left;
+    width: 10%;
+    height: 100%;
+    border: none;
+    opacity: 0.4;
+}
+
+
+
+.check_button:hover {
+    opacity: 1;
+}
+
+.input_mare {
+    float: right;
+    width: 85%;
+    height: 95%;
+    margin: auto; 
+    padding-left: 20px;
+    font-size: 0.6cm;
+    border: none;
+}
+
+::placeholder {
+    font-size: 0.7cm;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    opacity: 0.3;
+    font-style: italic;
+}
+
+.input_box {
+    border:1px solid black;
+    height: 4vh;
+    width: 100%;
+    margin: auto;
+}
+
+.filter_tab {
+    border:1px solid black;
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.todo_description {
+    text-align: center;
+    margin: auto;
+    flex-grow: 1;
+    font-size: large;
+    color: white;
+    background-color: rgb(85, 83, 83);
+}
+
+.all_button {
+    width: 20%;
+    height: 100%;
+    border: none;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+.all_button:hover {
+    opacity: 1;
+}
+
+.active_button {
+    width: 20%;
+    height: 100%;
+    border: none;
+    font-weight: bold;
+    flex-grow: 1;
+    opacity: 0.5;
+}
+
+.active_button:hover {
+    opacity: 1;
+}
+
+.completed_button {
+    width: 20%;
+    height: 100%;
+    border: none;
+    font-weight: bold;
+    flex-grow: 1;
+    opacity: 0.5;
+}
+
+.completed_button:hover {
+    opacity: 1;
+}
+
+.clear_completed_button {
+    width: 20%;
+    height: 100%;
+    flex-grow: 1;
+    font-weight: bold;
+    border: none;
+    opacity: 0.5;
+}
+
+.clear_completed_button:hover {
+    opacity: 1;
+}
+
+.introduced_text {
+    float: left;
+    width: 80%;
+    height: 40%;
+    text-align: center;
+    margin: auto;
+    padding-left: 10px;
+    font-size: larger;
+}
+
+.check_individual {
+    float: left;
+    height: 100%;
+    border: none;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.check_individual:hover {
+    opacity: 1;
+}
+
+.close_button {
+    float: right;
+    height: 100%;
+    margin: auto;
+    border: none;
+    background-color: white;
+    right: 0%;
+    opacity: 0.7;
+}
+
+.close_button:hover {
+    opacity: 1;
+}
+

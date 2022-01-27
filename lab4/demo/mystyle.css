@@ -1,0 +1,24 @@
+/* .first
+{
+    color: red;
+    background-color: yellow;
+    font-size: 20px;
+}
+
+*/
+
+.titlu1 {
+    width: 80vw;
+    height: 20vh;
+    background-color: yellow;
+    margin: auto;
+    text-align: center;
+}
+
+.animatie {
+    animation: jump 4s linear infinite;
+}
+
+@keyframes jump {
+    /* animatia de sarit */
+}

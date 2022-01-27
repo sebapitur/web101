@@ -1,0 +1,18 @@
+body {
+    background-image: url("tile_background.png");
+    background-color: #cccccc;
+    animation: move_background linear 6s infinite;
+}
+
+.fixed_image {
+    position: fixed;
+    bottom: 0%;
+    width:30vw;
+    height:50vh;
+}
+
+@keyframes move_background {
+    0%   {background-position: 0% 0%;}
+    100% {background-position: 100% 0%;}
+}
+  
